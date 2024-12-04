@@ -1,0 +1,126 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Login Section */
+#login {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+#login h2 {
+    margin-bottom: 20px;
+}
+
+#login form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#login form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#login form button {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#login form button:hover {
+    background: #218838;
+}
+
+/* Quiz Section */
+#quiz {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#quiz h2 {
+    margin-bottom: 20px;
+}
+
+#quiz label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#quiz select,
+#quiz input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#quiz button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#quiz button:hover {
+    background: #0056b3;
+}
+
+/* Question Section */
+#questionSection {
+    margin-top: 20px;
+}
+
+#questionText {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#options button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#options button:hover {
+    background: #f1f1f1;
+}
+
+#options button.correct {
+    background: #28a745;
+    color: #fff;
+}
+
+#options button.incorrect {
+    background: #dc3545;
+    color: #fff;
+}
